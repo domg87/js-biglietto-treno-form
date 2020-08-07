@@ -77,8 +77,23 @@ input:focus::placeholder {
   color: #fff;
 }
 
-
 /* //FORM */
+
+/* BOTTONI */
+.btn {
+  padding: 10px;
+  margin: 0 5px;
+  background-color: lightgrey;
+  border: 1px solid #b91450;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #b91450;
+}
+
+/* //BOTTONI */
+
 
 /* //BIGLIETTO */
 
@@ -106,6 +121,13 @@ input:focus::placeholder {
 
 table {
   border-spacing: 15px 0;
+}
+.box_biglietto{
+  display: none;
+}
+
+.hamburger {
+  display: block;
 }
 
 /* //BIGLIETTO */
