@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <title>Trenitalia Biglietto</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+      <div class="form_container">
+        <div class="dati">
+          <div class="row">
+            <!-- FORM -->
+            <div class="col">
+              <label for="nome">Nome Cognome</label>
+              <input id="nome" type="text" placeholder="Inserisci il tuo nome">
+            </div>
+            <div class="col">
+              <label for="km">Km da Percorrere</label>
+              <input id="km" type="number" placeholder="Inserisci i km">
+            </div>
+            <div class="col">
+              <label for="">Fascia d'et&agrave;</label>
+              <select id="età" name="fascia_età">
+                <option value="minorenne">Minorenne</option>
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="over65">Over 65</option>
+              </select>
+            </div>
+          </div>
+          <!-- //FORM -->
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
