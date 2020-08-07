@@ -14,7 +14,7 @@ body {
 
 }
 /* //TEXT */
-h1 {
+h1, h2 {
   text-align: center;
   margin: 20px 0;
   color: #fff;
@@ -53,10 +53,11 @@ h1 {
 
 label {
   color: #b91450;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 input, select {
+  text-align: center;
   height: 30px;
   margin: 10px;
   border-color: #b91450;
@@ -78,3 +79,33 @@ input:focus::placeholder {
 
 
 /* //FORM */
+
+/* //BIGLIETTO */
+
+.dati_biglietto {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.nome_biglietto {
+  width: 20%;
+  padding: 10px 0;
+  background-color: grey;
+}
+
+.offerta_biglietto {
+  width: 80%;
+  padding: 10px 0;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+table {
+  border-spacing: 15px 0;
+}
+
+/* //BIGLIETTO */
